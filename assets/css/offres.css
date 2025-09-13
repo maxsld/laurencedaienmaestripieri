@@ -1,0 +1,58 @@
+/* SECTION GRAND ORAL DESCRIPTION */
+.offres-description {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.offres-description p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #5b5b5b;
+}
+
+.offres-description ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+    color: #5b5b5b;
+}
+
+.offres-description li {
+  margin-bottom: 10px;
+}
+
+.offres-description i{
+    margin-right: .5rem;
+}
+
+.offres-description .highlight {
+  font-weight: 600;
+  color: var(--global-color-blue);
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+
+.offres-description .description-image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .offres-description {
+    padding: 60px 15px;
+    gap: 30px;
+  }
+
+}
