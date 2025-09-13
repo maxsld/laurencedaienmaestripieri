@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://laurencedaienmaestripieri.com/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Grand Oral -->
+  <url>
+    <loc>https://laurencedaienmaestripieri/offres/grand-oral.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+    <!-- Formation Communication -->
+  <url>
+    <loc>https://laurencedaienmaestripieri/offres/formation-communication.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+    <!-- Team Building -->
+  <url>
+    <loc>https://laurencedaienmaestripieri/offres/team-building.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

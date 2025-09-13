@@ -1,0 +1,14 @@
+# Autorise tous les robots à accéder à toutes les pages
+User-agent: *
+Allow: /
+
+# Sitemap pour aider Google à indexer ton site
+Sitemap: https://laurencedaienmaestripieri.com/sitemap.xml
+
+# Empêche l’indexation de certains fichiers inutiles (facultatif mais propre)
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/img/
+
+# Empêche le crawling de pages sensibles si besoin (exemple)
+# Disallow: /mentions-legales.html
