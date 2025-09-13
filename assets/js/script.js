@@ -13,13 +13,13 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 
 const logos = [
-  "/assets/img/logo-track1.png",
-  "/assets/img/logo-track2.png",
-  "/assets/img/logo-track3.png",
-  "/assets/img/logo-track4.png",
-  "/assets/img/logo-track5.webp",
-"/assets/img/logo-track6.png",
-  "/assets/img/logo-track7.png",
+  "assets/img/logo-track1.png",
+  "assets/img/logo-track2.png",
+  "assets/img/logo-track3.png",
+  "assets/img/logo-track4.png",
+  "assets/img/logo-track5.webp",
+"assets/img/logo-track6.png",
+  "assets/img/logo-track7.png",
 ];
 
 const track = document.getElementById("logo-track");
@@ -35,16 +35,16 @@ for (let i = 0; i < 100; i++) {
 
 
 const medias = [
-  { type: "img", src: "/assets/img/image1.jpeg" },
-  { type: "img", src: "/assets/img/image2.jpeg" },
-  { type: "video", src: "/assets/videos/video1.mp4" },
-  { type: "img", src: "/assets/img/image3.jpeg" },
-  { type: "video", src: "/assets/videos/video2.mp4" },
-  { type: "img", src: "/assets/img/image4.jpeg" },
-  { type: "img", src: "/assets/img/image5.jpeg" },
-  { type: "img", src: "/assets/img/image6.png" },
-  { type: "video", src: "/assets/videos/video3.mp4" },
-  { type: "img", src: "/assets/img/image7.jpeg" },
+  { type: "img", src: "assets/img/image1.jpeg" },
+  { type: "img", src: "assets/img/image2.jpeg" },
+  { type: "video", src: "assets/videos/video1.mp4" },
+  { type: "img", src: "assets/img/image3.jpeg" },
+  { type: "video", src: "assets/videos/video2.mp4" },
+  { type: "img", src: "assets/img/image4.jpeg" },
+  { type: "img", src: "assets/img/image5.jpeg" },
+  { type: "img", src: "assets/img/image6.png" },
+  { type: "video", src: "assets/videos/video3.mp4" },
+  { type: "img", src: "assets/img/image7.jpeg" },
 ];
 
 function fillRow(rowId) {
