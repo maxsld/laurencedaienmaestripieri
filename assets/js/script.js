@@ -18,7 +18,7 @@ const logos = [
   "assets/img/logo-track3.png",
   "assets/img/logo-track4.png",
   "assets/img/logo-track5.webp",
-"assets/img/logo-track6.png",
+  "assets/img/logo-track6.png",
   "assets/img/logo-track7.png",
 ];
 
