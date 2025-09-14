@@ -46,6 +46,10 @@
         height: 38px;
     }
 
+    .offer-card{
+        width: 100%;
+    }
+
     .offer-card img{
         height: auto;
         width: 100%;
