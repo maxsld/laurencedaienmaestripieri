@@ -46,6 +46,11 @@
         height: 38px;
     }
 
+    .offer-card img{
+        height: auto;
+        width: 100%;
+    }
+
     .about-section{
         flex-direction: column;
     }
