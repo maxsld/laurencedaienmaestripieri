@@ -28,6 +28,10 @@
         flex-direction: column;
     }
 
+    .overlay-image{
+        display: none;
+    }
+
     .cta-group{
         gap: 20px;
         flex-direction: column;
