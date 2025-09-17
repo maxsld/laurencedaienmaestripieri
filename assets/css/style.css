@@ -203,7 +203,26 @@ h1 {
 
 .hero-image{
   width: 450px;
+  position: relative;
 }
+
+.hero-image {
+  position: relative; /* pour positionner l'image secondaire */
+}
+
+
+.hero-image .overlay-image {
+  position: absolute;
+  width: 150px; /* taille de l'image ronde */
+  height: 150px;
+  border-radius: 50%; /* image ronde */
+  bottom: -10px; /* déborde légèrement en bas */
+  left: -60px; /* déborde légèrement sur la droite */
+  border: 4px solid white; /* contour pour contraste sur l'image principale */
+  object-fit: cover; /* garde les proportions de l'image */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* optionnel, pour relief */
+}
+
 
 /* IMAGE */
 .hero-image img {
