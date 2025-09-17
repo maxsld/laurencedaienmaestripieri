@@ -67,6 +67,7 @@ ul {
   line-height: 1.2;
 }
 
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -209,7 +210,7 @@ h1 {
     width: 100%;
     border-radius: 28px;
     object-fit: cover;
-    height: 396px;
+    height: 430px;
 }
 
 .section-trusted {

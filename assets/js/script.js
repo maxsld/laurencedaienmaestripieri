@@ -37,8 +37,10 @@ for (let i = 0; i < 100; i++) {
 const medias = [
   { type: "img", src: "assets/img/image1.jpeg" },
   { type: "img", src: "assets/img/image2.jpeg" },
+    { type: "img", src: "assets/img/img-piano-main.jpeg" },
   { type: "video", src: "assets/videos/video1.mp4" },
   { type: "img", src: "assets/img/image3.jpeg" },
+  { type: "img", src: "assets/img/img-piano-main2.jpeg" },
   { type: "video", src: "assets/videos/video2.mp4" },
   { type: "img", src: "assets/img/image4.jpeg" },
   { type: "img", src: "assets/img/image5.jpeg" },
@@ -176,4 +178,18 @@ document.querySelectorAll('.see-more').forEach(btn => {
     text.classList.toggle('expanded');
     btn.textContent = text.classList.contains('expanded') ? "Voir moins" : "Voir plus";
   });
+});
+
+
+window.addEventListener('load', () => {
+  const loader = document.getElementById('loader');
+
+  // On attend 3 secondes APRÈS que la page soit chargée
+  setTimeout(() => {
+    loader.classList.add('fade-out');
+
+    setTimeout(() => {
+      loader.style.display = 'none';
+    }, 2000); // durée de l'animation de fade-out
+  }, 2000);
 });
