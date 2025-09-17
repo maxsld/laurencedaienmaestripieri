@@ -754,6 +754,11 @@ blockquote {
   border-radius: 50%;
 }
 
+.author span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
 
 
 
