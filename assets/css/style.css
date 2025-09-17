@@ -267,7 +267,7 @@ h1 {
 .logo-track {
   display: flex;
   gap: 4rem;
-  animation: scrollLogos 1500s linear infinite;
+  animation: scrollLogos 900s linear infinite;
 }
 
 /* Chaque logo */

@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding: 10px 20px;
   text-align: left;
+  align-items: center;
 }
 
 .offres-description p {
@@ -45,6 +46,7 @@
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
   height: 100%;
+  max-height: 650px;
 }
 
 
