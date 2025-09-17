@@ -141,6 +141,7 @@ ul {
     gap: 60px;
     margin-top: 2rem;
     text-align: left;
+    position: relative;
 }
 
 
@@ -211,14 +212,15 @@ h1 {
 }
 
 
-.hero-image .overlay-image {
+ .overlay-image {
   position: absolute;
-  width: 150px; /* taille de l'image ronde */
-  height: 150px;
-  border-radius: 50%; /* image ronde */
-  bottom: -10px; /* déborde légèrement en bas */
-  left: -60px; /* déborde légèrement sur la droite */
-  border: 4px solid white; /* contour pour contraste sur l'image principale */
+  width: 300px; /* taille de l'image ronde */
+  height: 200px;
+  z-index: 3;
+  margin-top: 2rem;
+  border-radius: 28px; /* image ronde */
+  top: 500px; /* déborde légèrement en bas */
+  left:10px; /* déborde légèrement sur la droite */
   object-fit: cover; /* garde les proportions de l'image */
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* optionnel, pour relief */
 }
@@ -236,7 +238,7 @@ h1 {
   text-align: center;
   color: var(--global-color-white);
   overflow: hidden;
-  margin-top: -10rem;
+  margin-top: 0rem;
 }
 
 .trusted-text {
